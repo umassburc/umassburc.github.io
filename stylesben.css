@@ -1,0 +1,204 @@
+/* Global */
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  text-align: center;
+  height: 300px;
+  background-color: #3c6255;
+  overflow: hidden;
+  position: relative; 
+}
+
+nav {
+  background-color: #fffde2;
+  color: #3c6255;
+  padding: 50px;
+  text-align: center;
+  position: relative;
+  z-index: 2; 
+}
+
+nav a {
+  color: #3c6255;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+main {
+  margin: 20px;
+  line-height: 1.6;
+}
+
+header img {
+  display: block;
+  width: 600px;
+  height: auto;
+  margin: 0 auto;
+
+  position: absolute; 
+  top: 50%;
+  left: 50%; 
+  transform: translate(-50%, -50%);
+  z-index: 1; 
+}
+
+
+body {
+  background-color: #f2f2f2;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  margin: 0;
+}
+h2 {
+  font-size: 2rem;
+  color: #3c6255;
+  margin-top: 30px;
+}
+
+p {
+  font-size: 1.2rem;
+  color: #3c6255;
+  margin-top: 20px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin-top: 10px;
+}
+
+a {
+  color: #3c6255;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+a:hover {
+  color: #f2f2f2;
+}
+
+button {
+  background-color: #3c6255;
+  color: #f2f2f2;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #f2f2f2;
+  color: #3c6255;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.hero {
+  background-color: #3c6255;
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero h1 {
+  color: #f2f2f2;
+  font-size: 4rem;
+  text-shadow: 2px 2px #3c6255;
+}
+
+.hero p {
+  color: #f2f2f2;
+  font-size: 1.5rem;
+  margin-top: 20px;
+  text-shadow: 2px 2px #3c6255;
+}
+
+.features {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.feature {
+  width: 30%;
+  background-color: #fffde2;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+.feature:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.feature h2 {
+  font-size: 1.5rem;
+  margin-top: 0;
+}
+
+.feature p {
+  font-size: 1rem;
+  margin-top: 10px;
+}
+
+.cta {
+  background-color: #3c6255;
+  color: #f2f2f2;
+  padding: 50px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.cta h2 {
+  font-size: 2rem;
+  margin-top: 0;
+}
+
+.cta p {
+  font-size: 1.2rem;
+  margin-top: 20px;
+}
+
+.cta button {
+  margin-top: 20px;
+}
+
+.join-button {
+  background-color: #3c6255;
+  color: #fffde2;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.join-button:hover {
+  background-color: #f2f2f2;
+  color: #3c6255;
+}
+
+/* Additional styling for the anchor tag inside the button */
+.join-button a {
+  color: inherit; /* Inherit the color from the button */
+  text-decoration: none;
+}
